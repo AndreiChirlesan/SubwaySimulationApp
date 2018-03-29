@@ -1,3 +1,5 @@
+/*
+
 package TaxationApp {
 
   import scala.util.Random
@@ -9,10 +11,12 @@ package TaxationApp {
       new TripTicket(numberOfTrips = randomNumberOfTrips)
     }
 
-    def createPassTicket : PassTicket = {
-      new PassTicket(typeOfPass = "1 day pass", passTicketValidity = "valid")
+    def createPassTicket : OneDayPassTicket = {
+      new OneDayPassTicket(typeOneDayPass = "1 day pass", oneDayPassTicketValidity = "valid")
     }
 
   }
 
 }
+
+*/

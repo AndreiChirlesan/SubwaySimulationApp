@@ -25,3 +25,41 @@ object Ticket {
 }
 
  */
+
+
+/*ValidityEnum class, according to Radu:
+
+package TaxationApp
+
+object ValidityEnum extends Enumeration {
+  type ValidityEnum = Value
+  val VALID = Value("valid")
+  val EXPIRED = Value("expired")
+
+}
+ */
+
+/*NumberOfTrips class, according to Radu:
+
+package TaxationApp
+
+object NumberOfTripsEnum extends Enumeration {
+  type NumberOfTripsEnum = Value
+  val TWO_TRIPS = Value(2)
+  val TEN_TRIPS = Value(10)
+
+}
+ */
+
+/*TypesOfPassEnum class according to Radu:
+
+package TaxationApp
+
+object TypesOfPassEnum extends Enumeration {
+  type TypesOfPassEnum = Value
+  val ONE_DAY_PASS = Value("One Day Pass")
+  val TEN_DAYS_PASS = Value("Ten Days Pass")
+  val ONE_MONTH_PASS = Value("One Month Pass")
+
+}
+ */
